@@ -1,5 +1,13 @@
-(env) Manishs-MacBook-Pro:Operationalize-a-Machine-Learning-Microservice-API manishbisht$ sh run_kubernetes.sh
-deployment.apps "development" created
-NAME                           READY     STATUS              RESTARTS   AGE
-development-64c6bcb4b4-s6hlq   0/1       ContainerCreating   0          1s
-service "development" exposed
+kubectl run --generator=deployment/apps.v1 is DEPRECATED and will be removed in a future version. Use kubectl run --generator=run-pod/v1 or kubectl create instead.
+Error from server (AlreadyExists): deployments.apps "development" already exists
+NAME                           READY   STATUS    RESTARTS   AGE
+development-6565cb5488-g8g67   1/1     Running   0          4m9s
+Handling connection for 800000 -> 80
+Handling connection for 8000> 80
+
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}

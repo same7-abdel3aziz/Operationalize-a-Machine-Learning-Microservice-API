@@ -5,12 +5,12 @@
 
 # Step 1:
 # Create dockerpath
-dockerpath=manishbisht/development
+dockerpath=same7abdel3aziz/development
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
-docker tag cdfeb2e7e284 $dockerpath
+docker tag e8b1a689f808 $dockerpath
 
 # Step 3:
 # Push image to a docker repository
