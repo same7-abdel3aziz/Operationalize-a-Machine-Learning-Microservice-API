@@ -21,7 +21,6 @@ test:
 	#python -m pytest --nbval notebook.ipynb
 
 lint:
-	# This is linter for Dockerfiles
 	hadolint Dockerfile
 	# This is a linter for Python source code linter: https://www.pylint.org/
 	# This should be run from inside a virtualenv
